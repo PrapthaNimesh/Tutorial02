@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#064C09">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/toast_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#F44336"
+            android:contentDescription="@string/to"
+            android:fontFamily="serif-monospace"
+            android:foregroundGravity="center"
+            android:gravity="bottom"
+            android:padding="8dp"
+            android:shadowRadius="12.32"
+            android:text="@string/click_the_button"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IntentsProj</string>
+    <string name="button_send">OK</string>
+    <string name="Number1">Number 1</string>
+    <string name="Number2">Number 2</string>
+    <string name="textview3">TextView3</string>
+    <string name="textview4">TextView4</string>
+    <string name="addition">+</string>
+    <string name="substraction">-</string>
+    <string name="multiplication">*</string>
+    <string name="division">/</string>
+    <string name="sumation">+</string>
+    <string name="output">OUTPUT</string>
+    <string name="to">To</string>
+    <string name="click_the_button">Click the button</string>
+</resources>
